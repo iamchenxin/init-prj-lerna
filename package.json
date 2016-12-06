@@ -1,0 +1,17 @@
+{
+  "name": "init-app-source",
+  "scripts": {
+    "test": "npm run jest",
+    "lint": "eslint ./packages",
+    "jest": "NODE_ENV=test jest $@"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.11.1",
+    "eslint-config-fbjs": "^1.1.1",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-flowtype": "^2.29.1",
+    "eslint-plugin-react": "^5.2.2",
+    "lerna": "2.0.0-beta.30"
+  }
+}
